@@ -1,0 +1,75 @@
+.cards{
+    display: flex;
+    gap: 6px;
+    padding: 0;
+    margin: 0 0 10px 0;
+    list-style: none;
+}
+
+.cards__item{
+    width: 64px;
+    height: 40px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 1px solid black;
+    border-radius: 4px;
+    filter: none;
+    
+}
+
+
+.visa{
+    background-image: url(e91dd7feaf7857406ddd.png);
+    
+}
+
+.master{
+    background-image: url(079f88f888c339cec46d.png);
+}
+
+.americanexp{
+    background-image: url(d48cb4a2a190bbbbd423.png);
+}
+
+.discover{
+    background-image: url(48e37435b63c946496f8.png);
+}
+
+.jcb{
+    background-image: url(b7f789094f85af2abc6a.png);
+}
+
+.diners{
+    background-image: url(4a83d747f9c1cd1bb42e.png);
+    background-size: 45px;
+}
+
+.mir{
+    background-image: url(208692fe310fabf5f807.png);
+}
+
+.form-group{
+    display:flex;
+    gap: 6px;
+}
+
+.form-group__field{
+    min-width: 300px;
+    height: 40px;
+}
+
+.form-group__btn{
+    Width: 200px;
+    height: 45px;
+    background-color: #5cb85c;
+    border: none;
+    border-radius: 4px;
+    color: white;
+}
+
+.form-group__btn:hover{
+    background-color: rgb(1, 82, 36);
+    color: gray;
+}
+
