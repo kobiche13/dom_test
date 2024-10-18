@@ -1,14 +1,16 @@
 import {variable} from './variable'
 
-class ValidateCard {
+export default class ValidateCard {
     constructor(){
         this.numberCard = variable.input.value,
         this.resultLuhn = undefined
+        this.result = undefined
         
     }
 
     checkCardNumber(){
-        this.arrayNamberCard = this.numberCard.split('')
+        let numberCard = document.querySelector('.form-group__field').value
+        this.arrayNamberCard = numberCard.split('')
         let checkNumberArray = []
         this.arrayNamberCard.forEach(function(item, index){
             let luhnValue

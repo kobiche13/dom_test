@@ -9,6 +9,9 @@ export const variable = {
     jsb : document.querySelector('.jcb'),
     diners : document.querySelector('.diners'),
     mir : document.querySelector('.mir'),
+    validateImg: document.querySelector('.validate__result-img'),
+    validateText: document.querySelector('.validate__result-text'),
+    validateContainer: document.querySelector('.validate__result')
 }
 
 export const cardSystem = {

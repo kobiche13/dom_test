@@ -73,3 +73,23 @@
     color: gray;
 }
 
+.validate__result{
+    display: none;/*изменяем на flex*/
+    width: 400px;
+    height: 35px;
+    justify-content: flex-start;
+    gap: 5px;
+}
+
+.validate__result-img{
+    height: 100%;
+    width: 35px;
+    background-image: url(ac4dc2164233a0f75cea.png);
+    /*background-position: right; задаем программно*/
+    background-repeat: no-repeat;
+    background-size: 77px;
+}
+
+.validate__result-text{
+    font-size: 32px;
+}
