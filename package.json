@@ -38,6 +38,7 @@
     "webpack-dev-server": "^5.1.0"
   },
   "devDependencies": {
+    "generate-license-file": "^3.5.1",
     "jest-puppeteer": "^10.1.2"
   }
 }
