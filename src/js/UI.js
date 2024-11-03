@@ -1,7 +1,6 @@
 import {variable} from './variable'
 import PaymentSystem from './checkPaymentSystem'
-import {cardSystem} from './variable'
-import ValidateCard from './validateCard'
+
 
 export default class Interface{
     constructor(){

@@ -1,7 +1,7 @@
 import puppeteer from 'puppeteer'
 
 
-describe('payment system', () =>{
+describe('payment system', () => {
     let browser;
     let page;
     beforeEach(async ()=>{
@@ -14,7 +14,7 @@ describe('payment system', () =>{
         page = await browser.newPage();
     })
 
-    test('testing identify paument system', async ()=>{
+    test('testing identify paument system', async ()=> {
         await page.goto('http://localhost:9000')
         await page.waitForSelector('.form-group')
 

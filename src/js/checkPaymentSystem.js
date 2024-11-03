@@ -1,4 +1,4 @@
-import {variable} from './variable'
+
 import {cardSystem} from './variable'
 
 export default class PaymentSystem {
@@ -11,7 +11,7 @@ export default class PaymentSystem {
         let checkNumberCard = this.numberCard.value.split('', 4)
         let sum = ''
         let self = this
-        checkNumberCard.forEach(function(item, index){
+        checkNumberCard.forEach(function(item){
             sum += item
             Object.keys(cardSystem).find( i => cardSystem[i].forEach(function(value){
               if (value == sum){

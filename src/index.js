@@ -3,12 +3,12 @@ import './css/main.css'
 import {variable} from '../src/js/variable'
 import ValidateCard from '../src/js/validateCard'
 
-variable.input.addEventListener("input", (event) => {
+variable.input.addEventListener("input", ( ) => {
     const app = new Interface()
     app.identifyPaymentSystem()
 });
 
-variable.btnInput.addEventListener("click", (event) =>{
+variable.btnInput.addEventListener("click", ( ) =>{
     const lunh = new ValidateCard()
     lunh.checkCardNumber()
     variable.validateContainer.style.display = 'flex'
